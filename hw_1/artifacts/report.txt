@@ -1,0 +1,102 @@
+==================================================================================
+TASK 1
+
+python3 nl.py 
+dfdfd
+1       dfdfd
+
+dfdfdf
+2       dfdfdf
+
+dfdfd
+3       dfdfd
+
+
+4       
+
+
+5       
+
+
+6       
+
+fdfdfdfdf
+7       fdfdfdfdf
+
+dfddddddddddd
+8       dfddddddddddd
+
+fffffffffffffffffffffff
+9       fffffffffffffffffffffff
+
+-------------------------------------------------------------------
+python3 nl.py README.md 
+     1  Homeworks for Python Course
+
+     2  
+
+     3  foobar
+
+     4  baz
+
+     5  
+
+-------------------------------------------------------------------
+ python3 nl.py README.md second.txt
+Traceback (most recent call last):
+  File "/home/igor/PyCourse/nl.py", line 6, in <module>
+    raise NotImplementedError("many files aren't supported")
+NotImplementedError: many files aren't supported
+
+
+======================================================================================
+TASK2
+
+python3 tail.py README.md second.txt 
+==> README.md <==
+Homeworks for Python Course
+
+foobar
+baz
+
+==> second.txt <==
+Hello!!
+
+I am second file!!!
+--------------------------------------------------------------------
+python3 tail.py README.md bad.txt
+==> README.md <==
+Homeworks for Python Course
+
+foobar
+baz
+
+tail.py: [Errno 2] No such file or directory: 'bad.txt'
+--------------------------------------------------------------------
+python3 tail.py README.md 
+Homeworks for Python Course
+
+foobar
+baz
+======================================================================================
+TASK 3
+python3 wc.py README.md 
+        39      6       4 README.md
+--------------------------------------------------------------------
+python3 wc.py README.md second.txt 
+ 4      6       40 README.md
+ 3      5       29 second.txt
+ 7      11      69 total
+--------------------------------------------------------------------
+python3 wc.py README.md bad.md
+ 4      6       40 README.md
+wc.py: [Errno 2] No such file or directory: 'bad.md'
+--------------------------------------------------------------------
+python3 wc.py
+abbababbababa
+aaababbab
+abaababbababaabbaab
+ffffff
+
+ddsdsdsdsds
+ 6      5       64
