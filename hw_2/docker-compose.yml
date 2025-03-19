@@ -1,0 +1,6 @@
+services:
+  tex_app:
+    build: .
+    container_name: tex_container
+    environment:
+      - PYTHONUNBUFFERED=1
