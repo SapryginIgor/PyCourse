@@ -1,0 +1,2 @@
+AB hash: 3
+CD hash: -4
