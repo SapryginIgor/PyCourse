@@ -1,0 +1,19 @@
+hello
+ENCODED MESSAGE: uryyb
+, TIME: 6.491451263427734
+world
+my name is igor
+ENCODED MESSAGE: jbeyq
+, TIME: 11.494725942611694
+ababab
+ababababab
+abababababab
+ENCODED MESSAGE: zl anzr vf vtbe
+, TIME: 16.49964475631714
+ENCODED MESSAGE: nonono
+, TIME: 21.50542449951172
+ENCODED MESSAGE: nonononono
+, TIME: 26.509750843048096
+ENCODED MESSAGE: nononononono
+, TIME: 31.51503086090088
+Ending main process...
